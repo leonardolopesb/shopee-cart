@@ -37,18 +37,16 @@ async function deleteItem(userCart, name) {
 // 4- calcular o valor final do carrinho
 async function calculateTotal(userCart) {
     const result = userCart.reduce((total, item) => total + item.subtotal(), 0);
-    console.log(`🎁\nO valor final do carrinho da Shoppe é: R$${result}`);
+    console.log(`\nO valor final do carrinho é: R$${result}`);
 }
 
 // 5- exibir o carrinho
 async function displayCart(userCart) {
   console.log("\nLista de produtos no carrinho:");
-  
+
   userCart.forEach((item, index) => {
     console.log(
-      `${index + 1}. ${item.name} - R$ ${item.price} | ${
-        item.quantity
-      }x | Subtotal = ${item.subtotal()}`
+      `${index + 1}. ${item.name} - R$ ${item.price} | quantidade: ${item.quantity} | Subtotal = R$ ${item.subtotal()}`
     );
   });
 }
