@@ -1,6 +1,12 @@
-// 1- adicionar um item ao carrinho
+// 1- adicionar ou acrescentar um item ao carrinho
 async function addItem(userCart, item) {
+  const index = userCart.findIndex((p) => p.name === item.name);
+
+  if (index !== -1) {
+    userCart[index].quantity += item.quantity;
+  } else {
     userCart.push(item);
+  }
 }
 
 // 2- remover uma unidade de item do carrinho
