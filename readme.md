@@ -42,7 +42,7 @@ node index.js
 
 ## 🖊️ Autor
 
-[<img src='https://avatars.githubusercontent.com/u/54039202?v=4' width = 300><br><sub>Leonardo Lopes Braga</sub>](https://github.com/Elelebe)
+[<img src='https://avatars.githubusercontent.com/u/54039202?v=4' width = 300><br><sub>Leonardo Lopes Braga</sub>](https://github.com/leonardolopesb)
 
 ## 📝 Licença
 
