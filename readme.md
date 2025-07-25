@@ -1,6 +1,6 @@
 # 🛒 Carrinho de compras da Shopee
 
-Um mini projeto em JavaScript com base no carrinho da Shoppe, que é capaz de armazenar produtos, calculando os itens de forma automática. Trata-se de uma simulação do funcionamento de um carrinho de compras, com funcionalidades de adicionar, remover, deletar e calcular o valor total de itens através de um terminal.
+Um mini projeto em JavaScript com base no carrinho da Shopee, que é capaz de armazenar produtos, calculando os itens de forma automática. Trata-se de uma simulação do funcionamento de um carrinho de compras, com funcionalidades de adicionar, remover, deletar e calcular o valor total de itens através de um terminal.
 
 ## 📁 Estrutura do Projeto
 
